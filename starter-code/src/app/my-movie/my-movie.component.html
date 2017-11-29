@@ -1,3 +1,29 @@
-<p>
-  my-movie works!
-</p>
+<p>Room: {{ movie.room }}</p>
+<p>Title: {{ movie.title }}</p>
+
+<ul>
+  <li *ngFor="let i of movie.genres">{{ i }}</li>
+</ul>
+
+<p>Year: {{ movie.year }}</p>
+
+<p>Director: {{ movie.director }}</p>
+
+Actors:
+<ul>
+  <li *ngFor="let i of movie.actors">{{ i }}</li>
+</ul>
+
+Genres:
+<ul>
+  <li *ngFor="let i of movie.genres">{{ i }}</li>
+</ul>
+
+Schedules:
+<ul>
+  <li *ngFor="let i of movie.hours">{{ i }}</li>
+</ul>
+
+<p>Synopsis: {{ movie.synopsis }}</p>
+
+<a [routerLink]="['/home']">Home</a>
