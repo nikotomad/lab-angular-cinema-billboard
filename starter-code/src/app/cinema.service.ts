@@ -22,7 +22,9 @@ export class CinemaService {
         "William Sadler",
         "Clancy Brown",
         "Gil Bellows"
-      ]
+      ],
+      hours: ['Wednesday 19:30, 22:30','Friday 14:30, 16:30'],
+      room: 1
     }, {
       id: 2,
       title: "The Godfather",
@@ -40,8 +42,11 @@ export class CinemaService {
         "Richard S. Castellano",
         "Robert Duvall",
         "Sterling Hayden"
-      ]
-    }, {
+      ],
+      hours: ['Tuesday 19:30, 22:30','Friday 14:30, 16:30'],
+      room: 2
+    },
+    {
       id: 3,
       title: "The Godfather Part II",
       poster: "https://i.imgur.com/abJNkWI.jpg",
@@ -58,7 +63,9 @@ export class CinemaService {
         "Robert De Niro",
         "John Cazale",
         "Talia Shire"
-      ]
+      ],
+      hours: ['Sunday 19:30, 22:30','Friday 14:30, 16:30'],
+      room: 3
     }, {
       id: 4,
       title: "The Dark Knight",
@@ -76,7 +83,9 @@ export class CinemaService {
         "Michael Caine",
         "Maggie Gyllenhaal",
         "Gary Oldman"
-      ]
+      ],
+      hours: ['Tuesday 19:30, 22:30','Saturday 14:30, 16:30'],
+      room: 4
     },
     {
       id: 5,
@@ -95,7 +104,9 @@ export class CinemaService {
         "Caroline Goodall",
         "Jonathan Sagall",
         "Embeth Davidtz"
-      ]
+      ],
+      hours: ['Monday 19:30, 22:30','Thursday 14:30, 16:30'],
+      room: 5
     }
   ];
 
