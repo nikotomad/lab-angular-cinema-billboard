@@ -1,6 +1,7 @@
 <p>Room: {{ movie.room }}</p>
 <p>Title: {{ movie.title }}</p>
-
+<img src="{{ movie.poster }}" width="150"/><br>
+Genres:
 <ul>
   <li *ngFor="let i of movie.genres">{{ i }}</li>
 </ul>
@@ -14,11 +15,6 @@ Actors:
   <li *ngFor="let i of movie.actors">{{ i }}</li>
 </ul>
 
-Genres:
-<ul>
-  <li *ngFor="let i of movie.genres">{{ i }}</li>
-</ul>
-
 Schedules:
 <ul>
   <li *ngFor="let i of movie.hours">{{ i }}</li>
@@ -26,4 +22,4 @@ Schedules:
 
 <p>Synopsis: {{ movie.synopsis }}</p>
 
-<a [routerLink]="['/home']">Home</a>
+<a class="btn-home" [routerLink]="['/home']">Home</a>
