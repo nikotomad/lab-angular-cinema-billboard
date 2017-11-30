@@ -11,7 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 export class MyMovieComponent implements OnInit {
   movieId: Number;
   movie = {};
-  
+
   constructor(private route: ActivatedRoute, public cinema: CinemaService) { }
 
   ngOnInit() {
