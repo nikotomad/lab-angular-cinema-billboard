@@ -8,3 +8,13 @@
   height: 300px;
   margin: 1em;
 }
+
+a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none
+}
+
+a:hover {
+  color: red;
+}

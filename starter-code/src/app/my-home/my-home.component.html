@@ -6,6 +6,7 @@
   <div class="movie" *ngFor="let p of pelis">
     <p>Room: {{ p.room }}</p>
     <p>{{ p.title }}</p>
-    <a [routerLink]="['../movie', p.id]"><img src="{{ p.poster }}"/></a>
+    <img src="{{ p.poster }}"/><br>
+    <a [routerLink]="['../movie', p.id]">View Movie Details</a>
   </div>
 </div>
